@@ -1,0 +1,472 @@
+        html{
+            font-size: 16px;
+        }
+        /* Add your CSS styles here */
+        body{
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            max-width: 100vw !important;
+            background-color: #F9F9F9;
+        }
+        h1,h2,h3,h4,h5,h6,ul,li{
+            margin: 0px;
+            padding: 0px;
+        }
+        hr{
+            font-size: 50px;
+            color: white;
+            border-color: transparent;
+        }
+        .about, .features, .blog{
+            width: 1200px !important;
+            max-width: 1200px !important;
+        }
+        h1 {
+            font-size: 2.5rem; /* 2.5 times the base font size (40px if the base is 16px) */
+        }
+        
+        h2 {
+            font-size: 2rem; /* 2 times the base font size (32px if the base is 16px) */
+        }
+        
+        h3 {
+            font-size: 1.5rem; /* 1.5 times the base font size (24px if the base is 16px) */
+        }
+        
+        h4 {
+            font-size: 1.25rem; /* 1.25 times the base font size (20px if the base is 16px) */
+        }
+        
+        h5 {
+            font-size: 1rem; /* 1 times the base font size (16px if the base is 16px) */
+        }
+        
+        h6 {
+            font-size: 0.875rem; /* 0.875 times the base font size (14px if the base is 16px) */
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            position: relative;
+            top: 0;
+            z-index: 999;
+        }
+        footer {
+            max-width: 100vw;
+            margin-top: 2em;
+    
+            background-color: #f9f9f9;
+            height: 400px;
+        }
+        .cta{
+            padding: 100px 0px;
+            background-color: #F7FDFB;
+            width: 100% !important;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .h2{
+            font-size: 48px;
+            width: 50%;
+            color: #333;
+            text-align: center;
+        }
+        .cta p{
+            font-size: 16px;
+            color: #333;
+            width: 50%;
+            text-align: center;
+        }
+        .cta h2{
+            font-size: 48px;
+            width: 50%;
+            color: #333;
+            text-align: center;
+        }
+        .cta p{
+            font-size: 16px;
+            color: #333;
+            width: 50%;
+            text-align: center;
+        }
+        .cta button{
+            height: 50px;
+            border-radius: 10px;
+            border-color: transparent;
+            margin: 10px;
+            background-color:orangered;
+            color: white;
+            font-size: 1.2em;
+            font-weight: bold;
+            box-shadow: 0px 12px 16px -8px rgba(27, 95, 193, 0.38)
+        }
+        .features h2, p{
+            text-align: center;
+        }
+        .features{
+            padding: 100px 0px 0px 0px;
+        }
+        .cta button:hover{
+            background-color:rgb(221, 59, 0);
+        }
+        footer li{
+            list-style: none;
+            margin: 5px 0px;
+        }
+        footer li a{
+            color: #333;
+            font-size: 1.2em;
+        }
+        .footer-newsletter{
+            height: 250px;
+            width: 100%;
+            background-color: #052E59;
+        }
+        .footer-newsletter-inner{
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            position: relative;
+            left: 15em;
+            top: 2em;
+        }
+        .footer-newsletter-inner p{
+            text-align: left;
+        }
+        #newsletter-icon{
+            font-size: 40px;
+            position: relative;
+            left: 4em;
+            top: 2em;
+        }
+        #footer-newsletter-logo{
+            width: 80%;
+            position: relative;
+            top: 1.5em;
+        }
+        .newsletter-form input{
+            height: 30px;
+            border-radius: 10px;
+            border-color: transparent;
+            margin: 10px;
+        }
+        .newsletter-form button{
+            height: 35px;
+            border-radius: 10px;
+            border-color: transparent;
+            margin: 10px;
+            background-color: rgb(255, 255, 255);
+            color: rgb(8, 7, 85);
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .newsletter-form button:hover{
+            background-color: rgb(239, 239, 239);
+            color: rgb(8, 7, 85);
+            font-size: 1.4em;
+            font-weight: bold;
+            transition: 0.5s;
+        }
+        .newsletter-form{
+            width: 450px;
+            display: flex;
+            flex-direction: row;
+            position: relative;
+            left: 15em;
+            bottom: 4em;
+        }
+        .footer-newsletter{
+            color: #fff
+        }
+        .footer-contact-info{
+            background-color: #26282B;
+            height: 250px;
+        }
+        .footer-contact-info-inner{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            top: 20%;
+        }
+        .contact-icon{
+            position: relative;
+            top: 1em;
+            right: 2em;
+            color: orangered;
+            font-size: 30px;
+        }
+        .contact-p{
+            color: white;
+            width: 300px;
+            position: relative;
+            left: 5em;
+        }  
+        .contact-title{
+            color: white;
+            font-size: 1.5em;
+            position: relative;
+            left: 1em;
+        }
+        
+        
+        nav {
+            text-align: center;
+            position: relative;
+            top: 0;
+            z-index: 999;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        
+        nav ul li:last-child {
+            margin-right: 0;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+        
+        section {
+            padding: 20px;
+            max-width: 800px; /* Set your desired maximum width */
+            margin: 0 auto; /* Center the content horizontally */
+        }
+        /* Define classes for columns */
+        .col-1 {
+            width: 8.33%; /* 1/12 */
+            float: left;
+        }
+        
+        .col-2 {
+            width: 16.66%; /* 2/12 */
+            float: left;
+        }
+        
+        .col-3 {
+            width: 25%; /* 3/12 */
+            float: left;
+        }
+        
+        .col-4 {
+            width: 33.33%; /* 4/12 */
+            float: left;
+        }
+        
+        .col-6 {
+            width: 50%; /* 6/12 */
+            float: left;
+        }
+        
+        .col-8{
+            width: 66.66%;
+            float: left;
+        }
+        .col-10{
+            width: 83.33%;
+            float: left;
+        }
+        .col-12 {
+            width: 100%; /* 12/12 (full width) */
+            float: left;
+        }
+        
+        /* Clearfix to clear floats */
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        
+        .box{
+            background-color: #E4EBF2;
+            height: auto;
+            width: 80vw;
+            display: inline-block;
+            border-radius: 10px;
+        }
+        /* Container class */
+        .container {
+            max-width: 1200px !important; /* Set your preferred maximum width */
+            width: 1200px !important;
+            margin: 0 auto; /* Center the container horizontally */
+            padding: 20px; /* Add padding as needed */
+        }
+        /* CSS for the image */
+        .container img {
+            display: block; /* Remove any extra space below the image */
+            max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+            height: auto; /* Maintain the aspect ratio of the image */
+        }
+        .middle-flex-content{
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+        }
+        .about{
+            box-shadow: 1px 1px 20px -8px rgba(45, 9, 143, 0.18);
+            border-radius: 10px;
+        }
+        .about-me-links li{
+            padding-right: 1em;
+            list-style: none;
+            display: inline;
+        }
+        .about-me-links li a{
+            color: #333
+        }
+        
+        .about-me-content p{
+            font-size: 24px;
+            color: #333;
+            text-align: left;
+        }
+        #profilepicture{
+            width: 80%;
+        }
+        .features{
+            height: 600px;
+        }
+        
+        figure{
+            padding: .5em;
+            background-color: white !important;
+            border-radius: 10px;
+            margin: 5px;
+        }
+        figure img{
+            border-radius: 10px;
+        }
+        figcaption{
+            text-align: center;
+            margin: 5px;
+        }
+        
+        #big-feature{
+            height: 555px;
+        }
+        #big-feature img{
+            height: 90%;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .blog .box{
+            max-width: 1200px !important;
+            background-color: rgb(2, 86, 86);
+            height: fit-content;
+        }
+        .blog h2{
+            color: #ffffff;
+        }
+        .blog p{
+            color: #ffffff;
+        }
+        
+        .blog-header{
+            display: block;
+            padding: 13px;
+            text-align: center;
+        }
+        .blog-header p{
+            margin: 0px 10em !important;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .blog-posts{
+            width: 100%;
+            display: flex !important;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+        }
+
+        .blog figure{
+            background-color:transparent !important;
+        }
+        .blog figcaption{
+            color: white;
+        }
+
+        form{
+            display: grid;
+        }
+        form input, button, textarea{
+            height: 50px;
+            border-radius: 10px;
+            border-color: transparent;
+            margin: 10px;
+        }
+        
+        form textarea{
+            height: 100px;
+        }
+
+        .contact-form-btn{
+            background-color: rgb(2, 86, 86);
+            color: white;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .contact-form-btn:hover{
+            background-color: rgb(0, 57, 57);
+            color: white;
+            font-size: 1.4em;
+            font-weight: bold;
+            transition: 0.5s;
+        }
+
+        .page-header{
+            max-width: 100%;
+            overflow: hidden;
+        }
+        .page-header-img{
+            width: 100%;
+            height: 450px !important;
+            object-fit: cover;
+            border-radius: 0px 0px 160px 0px;
+            position: absolute;
+            top: 0;
+            z-index: 0;
+        }
+        .page-header-img-overlay{
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 0px 0px 160px 0px;
+            height: 450px !important;
+            width: 100%;
+            position: relative;
+            bottom: 38px;
+            z-index: 998;
+        }
+        .page-header-title{
+            font-size: 2.5em;
+            color: #F9F9F9;
+            font-weight: bold;
+            position: relative;
+            z-index: 999;
+        }
+        .page-header-content{
+            font-size: 1.5em;
+            color: #F9F9F9;
+            position: relative;
+            z-index: 999;
+        }
+
+        .page-header-content, .page-header-title{
+            position: relative;
+            bottom: 30vh;
+            left: 10vw;
+        }
