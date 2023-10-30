@@ -289,8 +289,16 @@
             width: 66.66%;
             float: left;
         }
+        .col-9{
+            width: 75%;
+            float: left;
+        }
         .col-10{
             width: 83.33%;
+            float: left;
+        }
+        .col-11{
+            width: 91.66%;
             float: left;
         }
         .col-12 {
@@ -304,7 +312,54 @@
             clear: both;
             display: table;
         }
-        
+        aside{
+            background-color: seashell;
+            color: #333;
+            padding: 20px;
+        }
+        aside h5{
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333;
+        }
+        aside li{
+            list-style: none;
+            padding: 5px;
+        }
+        .post{
+            max-width: 100%;
+            height: 250px !important;
+            margin: 25px 20px;
+        }
+        .post-img{
+            height: 250px !important;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .post-data{
+          width: 60%;
+          padding: 20px;
+          margin: 0 auto;
+          word-wrap: break-word;
+        }
+        .post-title{
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #26282B  !important;
+        }
+        .post-metadata{
+            font-size: 0.9em;
+            color: #333;
+        }
+        .post-excerpt{
+            font-size: 1em;
+            color: #333;
+            text-align: left;
+        }
+        .post-excerpt a{
+            color: #052E59;
+        }
         .box{
             background-color: #E4EBF2;
             height: auto;
@@ -330,9 +385,24 @@
             justify-content: center; /* Center horizontally */
             align-items: center; /* Center vertically */
         }
-        .about{
-            box-shadow: 1px 1px 20px -8px rgba(45, 9, 143, 0.18);
+        .services-icons{
+            font-size: 30px !important;
+        }
+        .services-box{
+            width: 20%;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: nowrap;
+            padding: 20px;
+            box-shadow: 1px 1px 20px -8px rgba(131, 115, 173, 0.18);
             border-radius: 10px;
+        }
+        .about{
+            box-shadow: 1px 1px 20px -8px rgba(131, 115, 173, 0.18);
+            border-radius: 10px;
+            
         }
         .about-me-links li{
             padding-right: 1em;
@@ -342,7 +412,11 @@
         .about-me-links li a{
             color: #333
         }
-        
+        .about-logo{
+            position: relative;
+            top: 80px;
+            left: 40%;
+        }
         .about-me-content p{
             font-size: 24px;
             color: #333;
@@ -449,7 +523,7 @@
         }
         
         .contact-form-btn{
-            background-color: rgb(2, 86, 86);
+            background-color: #052E59;
             color: white;
             font-size: 1.2em;
             font-weight: bold;
@@ -481,7 +555,7 @@
             height: 450px !important;
             width: 100%;
             position: relative;
-            bottom: 38px;
+            bottom: 45px;
             z-index: 998;
         }
         .page-header-title{
@@ -495,6 +569,7 @@
             font-size: 1.5em;
             color: #F9F9F9;
             position: relative;
+            text-align: left;
             z-index: 999;
         }
         
